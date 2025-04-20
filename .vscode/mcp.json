@@ -1,0 +1,73 @@
+{
+    "servers": {
+        "my-mcp-server-428feaad": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@microsoft/playwright-mcp",
+                "--client",
+                "vscode",
+                "--key",
+                "48c3c346-429a-4b7f-8dc9-4bfcbef6bf93"
+            ]
+        },
+        "my-mcp-server-33a29c4a": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@smithery-ai/server-sequential-thinking",
+                "--client",
+                "vscode",
+                "--key",
+                "48c3c346-429a-4b7f-8dc9-4bfcbef6bf93"
+            ]
+        },
+        "my-mcp-server-2be9463b": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@smithery-ai/server-sequential-thinking",
+                "--client",
+                "vscode",
+                "--key",
+                "48c3c346-429a-4b7f-8dc9-4bfcbef6bf93"
+            ]
+        },
+        "my-mcp-server-5c7a01f0": {
+            "type": "stdio",
+            "command": "-y",
+            "args": [
+                "@smithery/cli@latest",
+                "install",
+                "@smithery-ai/server-sequential-thinking",
+                "--client",
+                "vscode",
+                "--key",
+                "48c3c346-429a-4b7f-8dc9-4bfcbef6bf93"
+            ]
+        },
+        "duckduckgo": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@nickclyde/duckduckgo-mcp-server",
+                "--client",
+                "vscode",
+                "--key",
+                "48c3c346-429a-4b7f-8dc9-4bfcbef6bf93"
+            ]
+        }
+    }
+}
